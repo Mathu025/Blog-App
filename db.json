@@ -1,0 +1,38 @@
+{ 
+    "posts": [
+        {
+            "id": 1,
+            "title": "Getting Started with React",
+            "author": "Sarah Johnson",
+            "date": "2024-01-15",
+            "image":  "https://images.unsplash.com/photo-1750232453488-f6a40815126d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDEzfHRvd0paRnNrcEdnfHxlbnwwfHx8fHw%3D",
+            "content": "Nothing"
+        },
+        {
+
+            "id": 2,
+            "title": "The Future of Web Development",
+            "author": "Michael Chen",
+            "date": "2024-01-12",
+            "image": "https://plus.unsplash.com/premium_photo-1749399222901-204e5fe4c7f3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDE1fHRvd0paRnNrcEdnfHxlbnwwfHx8fHw%3D",
+            "content": "The future is looking up towards web development."
+
+        },
+        {
+            "id": 3,
+            "title": "Design Systems That Scale",
+            "author": "Emily Rodriguez",
+            "date": "2024-01-10",
+            "image":  "https://images.unsplash.com/photo-1748443157965-e504a6532648?q=80&w=765&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "content": "Technology is the new face of the world."
+        },
+        {
+            "id": 4,
+            "title": "TypeScript Best Practices",
+            "author": "David Kim",
+            "date": "2024-01-08",
+            "image": "https://plus.unsplash.com/premium_photo-1749846961895-464c17182d86?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDE5fHRvd0paRnNrcEdnfHxlbnwwfHx8fHw%3D",
+            "content": "Best Practices to use in TypeScript."
+        }
+    ]
+}

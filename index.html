@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIMPLE BLOG/POST MANAGER</title>
+    <link rel="stylesheet" href="./output.css">
+</head>
+<body>
+
+        <!--Page Wrapper -->
+    <div class = "container mx-auto p-4">
+
+        <!-- Header Section -->
+        <div class="text-center mb-4">
+            <h1 class="text-4xl font-bold mb-2">Post Pulse</h1>
+            <p> Modern blog post management</p>
+            </div>
+
+            <!--Main Area  -->
+        <div class="flex gap-4">
+
+            <!-- Left Section: Side Bar -->
+        <div class="w-1/3">
+            <div class="border p-4 rounded"> 
+                <h2 class="mb-1 text-2xl font-semibold">Blog Posts</h2>
+                <p>4 posts</p></div>
+
+            <ul id="post-list" class="space-y-2 mb-4">
+            </ul>
+
+
+            <div class="p-4 border rounded">
+                <h2 class="mb-2 font-medium">Add New Post</h2>
+                <form id="post-form">
+                    <input type="text" id="title" placeholder="Post Title..." class="w-full p-2 border rounded mb-2">
+                    <input type="text" id="author" placeholder="Author Name..." class="w-full p-2 border rounded mb-2">
+                    <input type="text" id="image" placeholder="Image URL..."class="w-full p-2 border rounded mb-2">
+                    <textarea id="content" placeholder="Write Your Post Content..." class="w-full p-2 border rounded mb-2"></textarea>
+
+                    <div class="flex justify-evenly">
+                        <button type="submit" class="bg-black text-white px-8 py-2 border rounded-2xl">Add Post</button>
+                        <button type="button" class="bg-amber-100 border rounded-2xl px-3 py-2">Cancel</button>
+                </div>
+
+                </form>
+                </div>
+            </div>
+
+                <!-- Right Side -->
+            <div class="w-2/3 border rounded p-6" id="post-detail">
+                <h2 class="text-xl font-semibold mb-2 text-gray-500">SELECT A POST TO VIEW ITS DETAILS</h2>
+
+
+            </div>
+
+            </div>
+</div>
+
+
+
+
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+</body>
+<script src= "./index.js"></script>
+</html>
