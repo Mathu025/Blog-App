@@ -21,8 +21,8 @@
 ## PROJECT STRUCTURE
 
 - index.html - Main HTML layout
--output.css- Tailwind css output file
--index.js - JavaScript logic
+- output.css- Tailwind css output file
+- index.js - JavaScript logic
 - db.json - mock database for json-server
 
 ## LICENSE
