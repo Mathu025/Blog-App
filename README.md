@@ -1,3 +1,7 @@
+# LIVE DEPLOYMENT LINK
+https://mathu025.github.io/Blog-App/
+
+
 # POST PULSE
 
 - This is a beginner friendly that lets users view, add and explore blog posts.
