@@ -40,7 +40,7 @@ function displayPosts() {
 }
 
     function handlePostClick(postId) {
-        fetch(baseUrl/ + postId)
+        fetch(`${baseUrl}/${postId}`)
             .then(res => res.json())
             .then(post => {
                 const postDiv = document.getElementById("post-detail")
