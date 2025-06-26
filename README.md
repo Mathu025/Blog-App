@@ -35,4 +35,4 @@ https://mathu025.github.io/Blog-App/
 
 ## AUTHOR
 
-- Mathu Alex &Copy;2025.
+- Mathu Alex &copy; 2025.
