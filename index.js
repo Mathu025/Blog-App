@@ -1,3 +1,5 @@
+const baseUrl = 'https://json-server-nca7.onrender.com/posts'
+
 function main() {
     displayPosts();
     addNewPostListener();
@@ -9,7 +11,7 @@ document.addEventListener("DOMContentLoaded", main)
 
 // gets blog posts from server
 function displayPosts() {
-    fetch("http://localhost:3000/posts")    
+    fetch(baseUrl)    
         .then(function(response) {
             return response.json(); // converts the response to JSON
         })
@@ -38,7 +40,7 @@ function displayPosts() {
 }
 
     function handlePostClick(postId) {
-        fetch("http://localhost:3000/posts/" + postId)
+        fetch(baseUrl/ + postId)
             .then(res => res.json())
             .then(post => {
                 const postDiv = document.getElementById("post-detail")
@@ -73,7 +75,7 @@ function addNewPostListener() {
         };
 
          // send the new post to the server
-        fetch("http://localhost:3000/posts", {
+        fetch(baseUrl, {
         method: "POST",
         headers: {
             "Content-Type":"application/json"
